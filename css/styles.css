@@ -524,16 +524,16 @@ transition-property:border ;
  transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1) ;
 }
 .checkbox:checked + .icon {
- background-color:var(--color-accent-hero-but-hover);
- background-image:url(/images/icon.svg/icon\ check.svg);
- background-size: contain;
- background-origin:border-box ;
+  background-color:var(--color-accent-hero-but-hover);
+  background-image:url(/images/icon.svg/icon\ check.svg);
+  background-size: contain;
+  background-origin:border-box ;
  border-color: var(--color-accent-hero-but-hover);
 
 
- transition-property:background-color ;
- transition-duration: 250ms;
- transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1) ;
+ transition-property:background-color, background-image;
+ transition-duration: 250ms,250ms;
+ transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1),cubic-bezier(0.4, 0, 0.2, 1);
 }
  .form-list {
 text-decoration-line: underline;
