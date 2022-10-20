@@ -525,7 +525,7 @@ transition-property:border ;
 }
 .checkbox:checked + .icon {
   background-color:var(--color-accent-hero-but-hover);
-  background-image:url(/images/icon.svg/icon\ check.svg);
+  background-image:url(./images/icon.svg/icon\ check.svg);
   background-size: contain;
   background-origin:border-box ;
  border-color: var(--color-accent-hero-but-hover);
